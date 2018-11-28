@@ -1,0 +1,28 @@
+[
+    {
+    "title": "Recipe 1",
+    "value": 1,
+    "color": "#d66c3b"
+    },
+    {
+    "title": "Recipe 2",
+    "value": 1,
+    "color": "#ba501f"
+    },
+    {
+    "title": "Recipe 3",
+    "value": 1,
+    "color": "#ed9853"
+    },
+    {
+    "title": "Recipe 4",
+    "value": 1,
+    "color": "#a34900"
+    },
+    {
+    "title": "Recipe 5",
+    "value": 1,
+    "color": "#a06638"
+    }
+]
+

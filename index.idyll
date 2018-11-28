@@ -1,0 +1,99 @@
+[meta title:"Pumpkin Recipe Bake-off" description:"A test of Idyll in relation to a pumpkin recipe bake-off" /]
+
+[Header
+  title:"Pumpkin Recipe Bake-off"
+  subtitle:"A thanksgiving taste test"
+  author:"Matthew Burke"
+  authorLink:"https://github.com/mwburke" /]
+
+[data name:'votes' source:'pumpkin_data.json' /]
+[data name:'pie_count' source:'pie_count.json' /]
+
+[Aside]
+[react-minimal-pie-chart
+  data:pie_count /]
+[/Aside]
+
+This is an Idyll file. Write text
+as you please in here. To add interactivity,
+you can add  different components to the text.
+
+
+
+
+### LaTeX Testing
+
+You can use standard html tags if a component with the same name doesn’t exist.
+
+[Equation]
+
+  y = \int x^2 dx
+
+[/Equation]
+
+Here is the same equation but inline [Equation] y = \int x^2 dx [/Equation]. and there it is
+
+
+
+Here is how you can use a variable:
+
+[var name:"exampleVar" value:5 /]
+
+[Range min:0 max:10 value:exampleVar /]
+[Display value:exampleVar /]
+
+```
+[var name:"exampleVar" value:5 /]
+
+[Range min:0 max:10 value:exampleVar /]
+[Display value:exampleVar /]
+```
+
+[Aside]
+
+
+[IdyllVegaLite data:votes spec:`{
+  width: 100,
+  height: 200,
+  mark: "bar",
+  encoding: {
+    column: {
+        field: "pumpkin",
+        type: "nominal",
+        title: "Pumpkin Recipe"
+    },
+    x: {
+      field: "rank",
+      type: "quantitative",
+      aggregate: "count",
+      title: "Vote Count"
+    },
+    y: {
+      field: "rank",
+      type: "ordinal",
+      title: "Recipe Rank"
+    }
+  }
+}` /]
+
+
+Here is some more text just to have another one next to it. Need to change the CSS to allow this stuff to be closer to the main blog information
+
+[/Aside]
+
+And here is a custom component:
+
+[CustomComponent /]
+
+You can use standard html tags if a
+component with the same name
+doesn't exist.
+
+* *markdown* syntax is supported.
+
+
+You can also load files from your `static/` directory.
+[img
+  src:'static/images/quill.svg'
+  style:`{ width: 75, display: 'block', margin: '30px auto' }`
+  /]
