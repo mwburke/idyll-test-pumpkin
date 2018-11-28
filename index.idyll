@@ -1,8 +1,8 @@
-[meta title:"Pumpkin Recipe Bake-off" description:"A test of Idyll in relation to a pumpkin recipe bake-off" /]
+[meta title:"Pumpkin Recipe Bake-off" description:"A test of Idyll in relation to some friends' pumpkin recipe bake-off" /]
 
 [Header
   title:"Pumpkin Recipe Bake-off"
-  subtitle:"A thanksgiving taste test"
+  subtitle:"A Thanksgiving taste test"
   author:"Matthew Burke"
   authorLink:"https://github.com/mwburke" /]
 
@@ -10,47 +10,28 @@
 [data name:'pie_count' source:'pie_count.json' /]
 
 [Aside]
-[react-minimal-pie-chart
-  data:pie_count /]
+[react-minimal-pie-chart data:pie_count /]
+
+Pie chart of the number of pies baked per recipe. This is the only time I will ever voluntarily use a pie chart
 [/Aside]
 
-This is an Idyll file. Write text
-as you please in here. To add interactivity,
-you can add  different components to the text.
+I have some cool friends who, instead of settling for a single pumpkin pie for Thanksgiving and wondering if it was the best option, they went ahead and baked 5 different recipes to determine which one was the best.
 
+They went ahead and did a taste test themselves, but ended up having extras (they did make 5 pies...) and invited over my others to do a blind tasting of them as well (did I mention they are cool friends?) and had everyone rank them from 1-5, from favorite to least favorite. They tallied up the results and gave them to me so I can practice making charts since apparently I don't do it enough during work hours.
 
+## Recipes
 
+Rather than teasing you, I'm going to put the recipes they baked up front in case you want to try them yourselves as a Christmas treat or maybe bookmark them for next Thanksgiving.
 
-### LaTeX Testing
+1. [Simple Pumpkin Pie](https://iambaker.net/simple-pumpkin-pie/)
+2. [Perfect Pumpkin Pie](https://www.modernhoney.com/perfect-pumpkin-pie/)
+3. [Perfect Pumpkin Pie (Once Upon a Chef)](https://www.onceuponachef.com/recipes/perfect-pumpkin-pie.html)
+4. [Pumpkin Pie (Cook's Illustrated / America's Test Kitchen)](https://www.seriouseats.com/recipes/2008/11/cooks-illustrated-pumpkin-pie-recipe.html)
+5. [Brûléed Bourbon-Maple Pumpkin Pie](https://www.bonappetit.com/recipe/bruleed-bourbon-maple-pumpkin-pie)
 
-You can use standard html tags if a component with the same name doesn’t exist.
-
-[Equation]
-
-  y = \int x^2 dx
-
-[/Equation]
-
-Here is the same equation but inline [Equation] y = \int x^2 dx [/Equation]. and there it is
-
-
-
-Here is how you can use a variable:
-
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-
-```
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-```
+## Voting Results
 
 [Aside]
-
 
 [IdyllVegaLite data:votes spec:`{
   width: 100,
@@ -72,28 +53,30 @@ Here is how you can use a variable:
       field: "rank",
       type: "ordinal",
       title: "Recipe Rank"
+    },
+    color: {
+      field: "group",
+      type: "nominal",
+      title: "Group"
     }
   }
 }` /]
 
-
-Here is some more text just to have another one next to it. Need to change the CSS to allow this stuff to be closer to the main blog information
-
 [/Aside]
 
-And here is a custom component:
+To the right is a tally of the sums of votes for each rank that each recipe received. I have colored each vote according to the *group* the voters were in.
 
-[CustomComponent /]
+Groups were made up of spouses or friends who tried the pies at the same time, and as you can probably see, often had similar taste preferences.
 
-You can use standard html tags if a
-component with the same name
-doesn't exist.
+My wife and I both rated 3-5 highest with 1-2 in as our bottom two choices, which was relatively similar to the bakers' ratings.
 
-* *markdown* syntax is supported.
+Our friends from Brazil who grew up eating desserts that were sweeter, ended up favoring the sweeter, more basic versions of the pies more and disliked the non-sweet bourbon-maple flavor.
 
+### Shameless Plug
 
-You can also load files from your `static/` directory.
-[img
-  src:'static/images/quill.svg'
-  style:`{ width: 75, display: 'block', margin: '30px auto' }`
-  /]
+I don't have any more to say about this tasting, except that it was a great idea because you
+
+a) find the best food and
+b) get to invite friends over to find the best food
+
+That being said, my friend Laura (one of the bakers) is not only an incredible baker, but she also self-published a book last year called [Engaging Difficult People: 100 Practical Lessons on Empathy and How It Transforms Our Relationships](https://www.amazon.com/Engaging-Difficult-People-Transforms-Relationships-ebook/dp/B077Y7JLK8) that you should definitely check out.
