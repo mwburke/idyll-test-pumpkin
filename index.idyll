@@ -8,6 +8,7 @@
 
 [data name:'votes' source:'pumpkin_data.json' /]
 [data name:'pie_count' source:'pie_count.json' /]
+[data name:'votes_long' source:'votes_long.json' /]
 
 [Aside]
 [react-minimal-pie-chart data:pie_count /]
@@ -71,6 +72,18 @@ Groups were made up of spouses or friends who tried the pies at the same time, a
 My wife and I both rated 3-5 highest with 1-2 in as our bottom two choices, which was relatively similar to the bakers' ratings.
 
 Our friends from Brazil who grew up eating desserts that were sweeter, ended up favoring the sweeter, more basic versions of the pies more and disliked the non-sweet bourbon-maple flavor.
+[Aside]
+
+[CustomD3Component
+ data:votes_long
+ width:600
+ height:400
+ /]
+
+[/Aside]
+
+
+To the right is a parallel coordinates chart. If you're not familiar with what those are, they basically allow you to visualize a single item across several different dimensions. In this case, a single line represents a single pie tester's rankings for each pie. Try dragging on the vertical lines to create a box, and try dragging the box up and down to filter tasters. If you want to get more advanced, try using multipe filters. For example, you could find the rankings for all users who ranked recipe 1 as least favorite and recipe 4 as most favorite.
 
 ### Shameless Plug
 

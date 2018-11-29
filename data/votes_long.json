@@ -1,0 +1,58 @@
+[
+    {
+        "name": 1,
+        "recipe_1": 4,
+        "recipe_2": 5,
+        "recipe_3": 1,
+        "recipe_4": 3,
+        "recipe_5": 2
+    },
+    {
+        "name": 2,
+        "recipe_1": 5,
+        "recipe_2": 4,
+        "recipe_3": 2,
+        "recipe_4": 3,
+        "recipe_5": 1
+    },
+    {
+        "name": 3,
+        "recipe_1": 5,
+        "recipe_2": 4,
+        "recipe_3": 1,
+        "recipe_4": 2,
+        "recipe_5": 3
+    },
+    {
+        "name": 4,
+        "recipe_1": 3,
+        "recipe_2": 2,
+        "recipe_3": 4,
+        "recipe_4": 1,
+        "recipe_5": 5
+    },
+    {
+        "name": 5,
+        "recipe_1": 5,
+        "recipe_2": 2,
+        "recipe_3": 4,
+        "recipe_4": 1,
+        "recipe_5": 3
+    },
+    {
+        "name": 6,
+        "recipe_1": 5,
+        "recipe_2": 3,
+        "recipe_3": 2,
+        "recipe_4": 1,
+        "recipe_5": 4
+    },
+    {
+        "name": 7,
+        "recipe_1": 5,
+        "recipe_2": 1,
+        "recipe_3": 2,
+        "recipe_4": 4,
+        "recipe_5": 3
+    }
+]
