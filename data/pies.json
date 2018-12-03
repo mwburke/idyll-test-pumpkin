@@ -1,0 +1,392 @@
+[
+    {
+        "name": "Laura",
+        "date": "11/22/18",
+        "rank": "1",
+        "recipe": "D"
+    },
+    {
+        "name": "Joey",
+        "date": "11/22/18",
+        "rank": "1",
+        "recipe": "D"
+    },
+    {
+        "name": "Laurie",
+        "date": "11/22/18",
+        "rank": "1",
+        "recipe": "D"
+    },
+    {
+        "name": "Marc",
+        "date": "11/22/18",
+        "rank": "1",
+        "recipe": "D"
+    },
+    {
+        "name": "Dayse",
+        "date": "11/25/18",
+        "rank": "1",
+        "recipe": "B"
+    },
+    {
+        "name": "Valeria",
+        "date": "11/25/18",
+        "rank": "1",
+        "recipe": "B"
+    },
+    {
+        "name": "Thiago",
+        "date": "11/25/18",
+        "rank": "1",
+        "recipe": "B"
+    },
+    {
+        "name": "Christa",
+        "date": "11/25/18",
+        "rank": "1",
+        "recipe": "C"
+    },
+    {
+        "name": "Matthew",
+        "date": "11/25/18",
+        "rank": "1",
+        "recipe": "C"
+    },
+    {
+        "name": "Mark",
+        "date": "11/26/18",
+        "rank": "1",
+        "recipe": "E"
+    },
+    {
+        "name": "Rohith",
+        "date": "11/26/18",
+        "rank": "1",
+        "recipe": "B"
+    },
+    {
+        "name": "Brandon",
+        "date": "11/26/18",
+        "rank": "1",
+        "recipe": "B"
+    },
+    {
+        "name": "Julien",
+        "date": "11/26/18",
+        "rank": "1",
+        "recipe": "C"
+    },
+    {
+        "name": "Laura",
+        "date": "11/22/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Joey",
+        "date": "11/22/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Laurie",
+        "date": "11/22/18",
+        "rank": "2",
+        "recipe": "A"
+    },
+    {
+        "name": "Marc",
+        "date": "11/22/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Dayse",
+        "date": "11/25/18",
+        "rank": "2",
+        "recipe": "D"
+    },
+    {
+        "name": "Valeria",
+        "date": "11/25/18",
+        "rank": "2",
+        "recipe": "D"
+    },
+    {
+        "name": "Thiago",
+        "date": "11/25/18",
+        "rank": "2",
+        "recipe": "D"
+    },
+    {
+        "name": "Christa",
+        "date": "11/25/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Matthew",
+        "date": "11/25/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Mark",
+        "date": "11/26/18",
+        "rank": "2",
+        "recipe": "A"
+    },
+    {
+        "name": "Rohith",
+        "date": "11/26/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Brandon",
+        "date": "11/26/18",
+        "rank": "2",
+        "recipe": "C"
+    },
+    {
+        "name": "Julien",
+        "date": "11/26/18",
+        "rank": "2",
+        "recipe": "E"
+    },
+    {
+        "name": "Laura",
+        "date": "11/22/18",
+        "rank": "3",
+        "recipe": "C"
+    },
+    {
+        "name": "Joey",
+        "date": "11/22/18",
+        "rank": "3",
+        "recipe": "A"
+    },
+    {
+        "name": "Laurie",
+        "date": "11/22/18",
+        "rank": "3",
+        "recipe": "E"
+    },
+    {
+        "name": "Marc",
+        "date": "11/22/18",
+        "rank": "3",
+        "recipe": "C"
+    },
+    {
+        "name": "Dayse",
+        "date": "11/25/18",
+        "rank": "3",
+        "recipe": "A"
+    },
+    {
+        "name": "Valeria",
+        "date": "11/25/18",
+        "rank": "3",
+        "recipe": "C"
+    },
+    {
+        "name": "Thiago",
+        "date": "11/25/18",
+        "rank": "3",
+        "recipe": "A"
+    },
+    {
+        "name": "Christa",
+        "date": "11/25/18",
+        "rank": "3",
+        "recipe": "B"
+    },
+    {
+        "name": "Matthew",
+        "date": "11/25/18",
+        "rank": "3",
+        "recipe": "D"
+    },
+    {
+        "name": "Mark",
+        "date": "11/26/18",
+        "rank": "3",
+        "recipe": "B"
+    },
+    {
+        "name": "Rohith",
+        "date": "11/26/18",
+        "rank": "3",
+        "recipe": "C"
+    },
+    {
+        "name": "Brandon",
+        "date": "11/26/18",
+        "rank": "3",
+        "recipe": "E"
+    },
+    {
+        "name": "Julien",
+        "date": "11/26/18",
+        "rank": "3",
+        "recipe": "B"
+    },
+    {
+        "name": "Laura",
+        "date": "11/22/18",
+        "rank": "4",
+        "recipe": "A"
+    },
+    {
+        "name": "Joey",
+        "date": "11/22/18",
+        "rank": "4",
+        "recipe": "C"
+    },
+    {
+        "name": "Laurie",
+        "date": "11/22/18",
+        "rank": "4",
+        "recipe": "C"
+    },
+    {
+        "name": "Marc",
+        "date": "11/22/18",
+        "rank": "4",
+        "recipe": "A"
+    },
+    {
+        "name": "Dayse",
+        "date": "11/25/18",
+        "rank": "4",
+        "recipe": "C"
+    },
+    {
+        "name": "Valeria",
+        "date": "11/25/18",
+        "rank": "4",
+        "recipe": "A"
+    },
+    {
+        "name": "Thiago",
+        "date": "11/25/18",
+        "rank": "4",
+        "recipe": "C"
+    },
+    {
+        "name": "Christa",
+        "date": "11/25/18",
+        "rank": "4",
+        "recipe": "D"
+    },
+    {
+        "name": "Matthew",
+        "date": "11/25/18",
+        "rank": "4",
+        "recipe": "B"
+    },
+    {
+        "name": "Mark",
+        "date": "11/26/18",
+        "rank": "4",
+        "recipe": "C"
+    },
+    {
+        "name": "Rohith",
+        "date": "11/26/18",
+        "rank": "4",
+        "recipe": "D"
+    },
+    {
+        "name": "Brandon",
+        "date": "11/26/18",
+        "rank": "4",
+        "recipe": "A"
+    },
+    {
+        "name": "Julien",
+        "date": "11/26/18",
+        "rank": "4",
+        "recipe": "A"
+    },
+    {
+        "name": "Laura",
+        "date": "11/22/18",
+        "rank": "5",
+        "recipe": "B"
+    },
+    {
+        "name": "Joey",
+        "date": "11/22/18",
+        "rank": "5",
+        "recipe": "B"
+    },
+    {
+        "name": "Laurie",
+        "date": "11/22/18",
+        "rank": "5",
+        "recipe": "B"
+    },
+    {
+        "name": "Marc",
+        "date": "11/22/18",
+        "rank": "5",
+        "recipe": "B"
+    },
+    {
+        "name": "Dayse",
+        "date": "11/25/18",
+        "rank": "5",
+        "recipe": "E"
+    },
+    {
+        "name": "Valeria",
+        "date": "11/25/18",
+        "rank": "5",
+        "recipe": "E"
+    },
+    {
+        "name": "Thiago",
+        "date": "11/25/18",
+        "rank": "5",
+        "recipe": "E"
+    },
+    {
+        "name": "Christa",
+        "date": "11/25/18",
+        "rank": "5",
+        "recipe": "A"
+    },
+    {
+        "name": "Matthew",
+        "date": "11/25/18",
+        "rank": "5",
+        "recipe": "A"
+    },
+    {
+        "name": "Mark",
+        "date": "11/26/18",
+        "rank": "5",
+        "recipe": "D"
+    },
+    {
+        "name": "Rohith",
+        "date": "11/26/18",
+        "rank": "5",
+        "recipe": "A"
+    },
+    {
+        "name": "Brandon",
+        "date": "11/26/18",
+        "rank": "5",
+        "recipe": "D"
+    },
+    {
+        "name": "Julien",
+        "date": "11/26/18",
+        "rank": "5",
+        "recipe": "D"
+    }
+]

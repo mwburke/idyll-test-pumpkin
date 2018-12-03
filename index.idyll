@@ -6,7 +6,7 @@
   author:"Matthew Burke"
   authorLink:"https://github.com/mwburke" /]
 
-[data name:'votes' source:'pumpkin_data.json' /]
+[data name:'votes' source:'pies.json' /]
 [data name:'pie_count' source:'pie_count.json' /]
 [data name:'votes_long' source:'votes_long.json' /]
 
@@ -40,7 +40,7 @@ Rather than teasing you, I'm going to put the recipes they baked up front in cas
   mark: "bar",
   encoding: {
     column: {
-        field: "pumpkin",
+        field: "recipe",
         type: "nominal",
         title: "Pumpkin Recipe"
     },
@@ -56,23 +56,29 @@ Rather than teasing you, I'm going to put the recipes they baked up front in cas
       title: "Recipe Rank"
     },
     color: {
-      field: "group",
+      field: "date",
       type: "nominal",
-      title: "Group"
+      title: "Taste Date"
     }
   }
 }` /]
 
 [/Aside]
 
-To the right is a tally of the sums of votes for each rank that each recipe received. I have colored each vote according to the *group* the voters were in.
-
-Groups were made up of spouses or friends who tried the pies at the same time, and as you can probably see, often had similar taste preferences.
+To the right is a tally of the sums of votes for each rank that each recipe received. I have colored each vote according to the date of the taste test.
 
 My wife and I both rated 3-5 highest with 1-2 in as our bottom two choices, which was relatively similar to the bakers' ratings.
 
-Our friends from Brazil who grew up eating desserts that were sweeter, ended up favoring the sweeter, more basic versions of the pies more and disliked the non-sweet bourbon-maple flavor.
+Some friends who are relatively new to the US grew up eating desserts that were sweeter, and ended up favoring the sweeter, more basic versions of the pies more and disliked the non-sweet bourbon-maple flavor.
+
+
+[br][/br]
+[br][/br]
+[br][/br]
+
 [Aside]
+
+### Taster Votes
 
 [CustomD3Component
  data:votes_long
@@ -82,14 +88,21 @@ Our friends from Brazil who grew up eating desserts that were sweeter, ended up 
 
 [/Aside]
 
+[br][/br]
+[br][/br]
+[br][/br]
 
-To the right is a parallel coordinates chart. If you're not familiar with what those are, they basically allow you to visualize a single item across several different dimensions. In this case, a single line represents a single pie tester's rankings for each pie. Try dragging on the vertical lines to create a box, and try dragging the box up and down to filter tasters. If you want to get more advanced, try using multipe filters. For example, you could find the rankings for all users who ranked recipe 1 as least favorite and recipe 4 as most favorite.
+To the right is a parallel coordinates chart. If you're not familiar with what those are, they basically allow you to visualize a single item across several different dimensions simultaneously. In this case, a single line represents a single pie tester's rankings for each pie. Try dragging on the vertical lines to create a box, and try dragging the box up and down to filter tasters. If you want to get more advanced, try using multiple filters to investigate specific tasters' preferences.
+
+
+[br][/br]
+[br][/br]
+[br][/br]
+[br][/br]
+[br][/br]
+[br][/br]
+[br][/br]
 
 ### Shameless Plug
 
-I don't have any more to say about this tasting, except that it was a great idea because you
-
-a) find the best food and
-b) get to invite friends over to find the best food
-
-That being said, my friend Laura (one of the bakers) is not only an incredible baker, but she also self-published a book last year called [Engaging Difficult People: 100 Practical Lessons on Empathy and How It Transforms Our Relationships](https://www.amazon.com/Engaging-Difficult-People-Transforms-Relationships-ebook/dp/B077Y7JLK8) that you should definitely check out.
+I don't really have much more to say that about the tasting, except that my friend Laura (one of the bakers) is not only an incredible baker, but she also self-published a book last year called [Engaging Difficult People: 100 Practical Lessons on Empathy and How It Transforms Our Relationships](https://www.amazon.com/Engaging-Difficult-People-Transforms-Relationships-ebook/dp/B077Y7JLK8) that you should definitely check out.
